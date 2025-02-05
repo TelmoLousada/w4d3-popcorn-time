@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Header from './components/Header'
 import './App.css'
 
 function App() {
@@ -7,6 +8,8 @@ function App() {
   return (
     <>
     <h1>Welcome to Popocorn Time</h1>
+
+    <header />
     </>
   )
 }
